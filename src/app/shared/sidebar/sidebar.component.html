@@ -1,5 +1,9 @@
 <div class="colLeft text-bg-dark">
-    <h2 class="p-2">Gifs-App</h2>
-    <hr />
-    <button type="button" class="btn btn-primary w-50">Primary</button>
+  <h2 class="p-2">Gifs-App</h2>
+  <hr />
+  <div *ngFor="let item of lsGifStory">
+    <button type="button" class="btn btn-primary w-50">
+      {{ item | titlecase }}
+    </button>
   </div>
+</div>

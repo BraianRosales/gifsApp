@@ -5,5 +5,9 @@
 .btn {
   margin: 0px auto;
   display: block;
+  margin-bottom: 5px;
 }
 
+.p-2 {
+  margin-bottom: 49px;
+}

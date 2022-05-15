@@ -4,3 +4,7 @@
 .row-gifs{
     border: 1px solid black;
 }
+.row {
+    --bs-gutter-x: 0px!important;
+  }
+  
