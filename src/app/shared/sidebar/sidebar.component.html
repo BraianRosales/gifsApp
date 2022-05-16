@@ -1,9 +1,9 @@
 <div class="colLeft text-bg-dark">
   <h2 class="p-2">Gifs-App</h2>
   <hr />
-  <div *ngFor="let item of lsGifStory">
-    <button type="button" class="btn btn-primary w-50">
-      {{ item | titlecase }}
+  <div *ngFor="let gif of lsGifStory">
+    <button type="button" class="btn btn-primary w-50" (click)="searchBtn(gif)">
+      {{ gif | titlecase }}
     </button>
   </div>
 </div>

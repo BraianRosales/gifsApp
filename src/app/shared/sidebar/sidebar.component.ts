@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { GifsService } from '../../gifs/services/gifs.service';
 
 @Component({
@@ -11,5 +11,9 @@ export class SidebarComponent {
 
   get lsGifStory() {
     return this.GifsService.lsGifStory;
+  }
+
+  searchBtn(gif: string) {
+    this.GifsService.searchGif(gif);
   }
 }
