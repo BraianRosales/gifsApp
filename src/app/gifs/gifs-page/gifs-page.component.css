@@ -1,0 +1,9 @@
+.cards {
+    height: 86vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-left: 20px;
+    overflow: auto;
+  }
+  

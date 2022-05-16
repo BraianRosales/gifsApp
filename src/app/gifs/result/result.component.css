@@ -1,0 +1,13 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 1px 0px 5px lightslategrey;
+}
+
+.img-gif {
+  height: 300px;
+}
+
+.card-text{
+  margin-top: 10px;
+  text-align: center;
+}
